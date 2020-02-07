@@ -1,4 +1,4 @@
-$basePath = ".;keymaps;faces;scripts;vehicles;logos;movies;sounds";
+$basePath = ".;keymaps;faces;scripts;vehicles;logos;movies;sounds;terrain";
 if ($CDROM_drive != "")
 {
    $basePath = $basePath @ ";"
