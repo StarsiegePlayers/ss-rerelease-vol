@@ -1,7 +1,7 @@
 # THUMPER
 
 #          Identity_Tag         Abbreviation Shape               Mass  MaxMass  RCS   Tech_Level   Combat_Value
-droneBase( IDVEH_RB_THUM, "RBTHUM",    "rb_thum.dts", 5.00, 30.00 ,  0.85, 2 ,          1500);
+droneBase( IDVEH_RB_THUM, "THUM",    "rb_thum.dts", 5.00, 30.00 ,  0.85, 2 ,          1500);
 
 #        maxPosAcc  minPosVel  maxForPosVel  maxRevPosVel       (all_m/s)
 dronePos( 15.00,    3.00,      30.00 ,       -15.50);
@@ -44,4 +44,3 @@ newConfiguration(RightServos, RightTread, 1);
 defaultMountables(101, 200);
 
 droneExplosion(true, 50.0);
-x

@@ -5,7 +5,7 @@
 ######################################################################
 vehiclePilotable(false);
 #                 Identity_Tag        Abbreviation     Shape             Mass            MaxMass                 RCS            Tech_Level   Combat_Value
-tankBase(         IDVEH_SS_BUS,       "SS BUS",        "ss_bus.dts",               36.0 ,                  90.0 ,         0.95 ,          4 ,         3215);
+tankBase(         IDVEH_SS_BUS,       "BUS",        "ss_bus.dts",               36.0 ,                  90.0 ,         0.95 ,          4 ,         3215);
 
 #                 maxPosAcc           minPosVel        maxForPosVel      maxRevPosVel    (all_m/s)
 tankPos(                       15.00 ,           3.00 ,           28.00 ,          -22.95);

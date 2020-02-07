@@ -7,7 +7,7 @@ vehiclePilotable(false);
 vehicleArtillery(true);
 #
 #                 Identity_Tag        Abbreviation     Shape             Mass            MaxMass                 RCS              Tech_Level      Combat_Value
-tankBase(         IDVEH_CY_ARTL,      "CYARTL",        "cy_artl.dts",              10.0 ,                  90.0 ,           0.95 ,             4 ,         3000);
+tankBase(         IDVEH_CY_ARTL,      "ARTL",        "cy_artl.dts",              10.0 ,                  90.0 ,           0.95 ,             4 ,         3000);
 
 #                 maxPosAcc           minPosVel        maxForPosVel      maxRevPosVel    (all_m/s)
 tankPos(                       15.00 ,           3.00 ,           27.00 ,          -22.95);
@@ -80,4 +80,3 @@ newConfiguration( RightServos,        RightTread,                    1.00);
 
 defaultWeapons(                     20);
 defaultMountables(143,                201,             800,              928,            411,                    860,             830,                      810);
-T

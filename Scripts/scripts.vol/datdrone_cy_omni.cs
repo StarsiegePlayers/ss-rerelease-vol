@@ -1,6 +1,6 @@
 # OMNI CRAWLER
 
-droneBase( IDVEH_CY_OMNI, "CYOMNI",    "cy_omni.dts", 10.00, 90.00 ,  2.00, 10 ,          1500);
+droneBase( IDVEH_CY_OMNI, "OMNI",    "cy_omni.dts", 10.00, 90.00 ,  2.00, 10 ,          1500);
 
 #        maxPosAcc  minPosVel  maxForPosVel  maxRevPosVel       (all_m/s)
 dronePos( 25.00,    3.00,      30.00 ,       -25.50);

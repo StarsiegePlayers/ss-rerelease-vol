@@ -1,7 +1,7 @@
 # SOVEREIGN
 
 #          Identity_Tag         Abbreviation Shape               Mass  MaxMass  RCS   Tech_Level   Combat_Value
-droneBase( IDVEH_TR_SOVE, "TRSOVE",    "tr_sove.dts", 5.00, 30.00 ,  0.85, 2 ,          1500);
+droneBase( IDVEH_TR_SOVE, "SOVE",    "tr_sove.dts", 5.00, 30.00 ,  0.85, 2 ,          1500);
 
 #        maxPosAcc  minPosVel  maxForPosVel  maxRevPosVel       (all_m/s)
 dronePos( 45.00,    3.00,      30.00 ,       -15.50);
@@ -38,4 +38,3 @@ newConfiguration(LeftServos,  CenterTread,  1);
 defaultMountables(101, 200);
 
 droneExplosion(true, 15.0);
-D

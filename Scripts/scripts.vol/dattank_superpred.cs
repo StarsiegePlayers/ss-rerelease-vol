@@ -1,11 +1,12 @@
 ######################################################################													
 # datTank_SuperPred.cs													
 # Harabec's Predator													
-#													
+								
 ######################################################################													
 vehiclePilotable(false);													
 #	Identity_Tag	Abbreviation	Shape	Mass	MaxMass	RCS	Tech_Level	Combat_Value					
-tankBase(	IDVEH_HA_SUPER_PRED,	"SPRED",	"ha_pred.dts",	1.00 ,	80.00 ,	0.10 ,	127,	6000	);				
+		
+tankBase(	IDVEH_HA_SUPER_PRED,	"PRED",	"ha_pred.dts",	1.00 ,	80.00 ,	0.10 ,	127,	6000	);				
 													
 #	maxPosAcc	minPosVel	maxForPosVel	maxRevPosVel	(all_m/s)								
 tankPos(	30.00 ,	3.00 ,	36.00 ,	-30.60	);								

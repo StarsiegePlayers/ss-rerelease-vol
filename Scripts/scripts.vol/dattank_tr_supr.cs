@@ -7,7 +7,7 @@ vehiclePilotable(false);
 #
 #
 #                 Identity_Tag        Abbreviation    Shape             Mass            MaxMass                 RCS            Tech_Level   Combat_Value
-tankBase(         IDVEH_TR_SUPR,      TRUPSR,         "tr_supr.dts",                5.0,                   60.0,           0.9,          2 ,         2000);
+tankBase(         IDVEH_TR_SUPR,      "SUPR",         "tr_supr.dts",                5.0,                   60.0,           0.9,          2 ,         2000);
 
 #                 maxPosAcc           minPosVel       maxForPosVel      maxRevPosVel    (all_m/s)
 tankPos(                         20.0,            3.0,             30.0,           -25.5);
@@ -75,4 +75,3 @@ newConfiguration( RightServos,        CenterTread,    1);
 
 defaultWeapons(   127,                127);
 defaultMountables(110,                202,            802,              928,            411,                    820,           831,         811);
-à

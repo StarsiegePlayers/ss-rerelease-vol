@@ -5,7 +5,7 @@
 ######################################################################
 vehiclePilotable(false);
 #                 Identity_Tag        Abbreviation     Shape             Mass            MaxMass                 RCS            Tech_Level   Combat_Value
-tankBase(         IDVEH_RB_PNCR,      "PCR-B",         "rb_bike.dts",              1.00 ,                 30.00 ,         0.55 ,          5 ,         1200);
+tankBase(         IDVEH_RB_PNCR,      "BIKE",         "rb_bike.dts",              1.00 ,                 30.00 ,         0.55 ,          5 ,         1200);
 
 #                 maxPosAcc           minPosVel        maxForPosVel      maxRevPosVel    (all_m/s)
 tankPos(                       30.00 ,           3.00 ,           50.00 ,          -27.20);
