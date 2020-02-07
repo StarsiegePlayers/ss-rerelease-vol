@@ -75,7 +75,8 @@ exec( "cdAudioTracks.cs" );
 //--------------------------------------
 checkDisk();   
 getCDRomDrive();   
-checkForFile("smackw32.dll", "shell.vol", "dinput.dll", "ddraw.dll", "dsound.dll", "dinput.dll");
+// Linux Wine Fix
+// checkForFile("smackw32.dll", "shell.vol", "dinput.dll", "ddraw.dll", "dsound.dll", "dinput.dll");
 checkDirectXVersion();
 Console::enable(false);
 
@@ -165,7 +166,8 @@ if (! $CmdLineServer)
 
 # render the splash screen before going on
 
-regOk("/HKEY_LOCAL_MACHINE/Software/Dynamix/Starsiege", "PATH");
+// "5-Min" & Portable Crash Fix
+// regOk("/HKEY_LOCAL_MACHINE/Software/Dynamix/Starsiege", "PATH");
 
 #--------------------------------------
 # load misc common things for both cmdLine server
@@ -255,16 +257,3 @@ else
 
 showVersion();
 
-
-
-
-
-
-
-
-
-
-
-
-
-a
