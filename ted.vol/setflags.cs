@@ -3,3 +3,4 @@ if test $dlgResult != [cancel]
     Ted::setFlags $Ted::flags
     flushTextureCache
 endif
+

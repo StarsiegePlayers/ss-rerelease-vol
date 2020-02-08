@@ -544,4 +544,4 @@ $TS3_MudType           =  0xB;
 $TS3_StoneType         =  0xC;
 $TS3_SoftEarthType     =  0xD;
 $TS3_PackedEarthType   =  0xE;
-                                                        m
+

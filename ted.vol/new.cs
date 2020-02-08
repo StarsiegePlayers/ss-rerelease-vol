@@ -24,3 +24,4 @@ if test $dlgResult != [cancel]
        endif
     endif
 endif
+

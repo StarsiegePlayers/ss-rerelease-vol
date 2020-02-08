@@ -333,9 +333,3 @@ icActionAllowed(IDACTION_QUICKCHAT);
 icActionAllowed(IDACTION_PAUSE);              
 icActionAllowed(IDACTION_FLUSH_CHAT);
 
-
-
-
-
-
-U

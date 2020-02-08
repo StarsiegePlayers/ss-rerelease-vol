@@ -53,4 +53,3 @@ addToolButton config closecon 0
 setButtonHelp config closecon "close configuration window"
         setToolCommand config closecon "deleteObject config"
 
-

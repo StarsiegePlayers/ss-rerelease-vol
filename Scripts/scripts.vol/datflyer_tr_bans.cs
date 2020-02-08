@@ -88,4 +88,4 @@ defaultWeapons(	127,	127 );
 defaultMountables(	100 ,	200,	0,	926	);			
 
 droneExplosion( true, 25 );				
-b
+

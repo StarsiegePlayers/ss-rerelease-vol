@@ -61,4 +61,4 @@ newConfiguration(	Armor,	FlyerBody,	1.00	);
 defaultMountables(	102 ,	200,	0,	926,	811	,	820	);	
 
 droneExplosion( true, 25 );					
-b
+

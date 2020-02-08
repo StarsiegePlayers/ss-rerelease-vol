@@ -26,4 +26,4 @@ bindCommand(keyboard, break, g, to, "popMouseAction();");
 
 bindCommand(keyboard, make, b, to, "pushMouseAction(smooth);");
 bindCommand(keyboard, break, b, to, "popMouseAction();");
-m
+

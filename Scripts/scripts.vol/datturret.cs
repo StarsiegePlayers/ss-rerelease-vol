@@ -326,5 +326,3 @@ turretAI( "turretFire.ai" );
 //               id size side Prnt   X____ Y___  Z___   min__ max_  min__ max__ 
 newHardPointExt( 0, X,    T, head0, 0.00, -1.7, 9.43, 0.0, 0.0, -30.0, 20.0 );
 
-
-o

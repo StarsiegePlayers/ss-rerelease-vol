@@ -187,4 +187,4 @@ shieldInfo1 (	IDSHL_CYB8,	IDSHL_CYB8_L,	"cyShieldgenL2_S.bmp",	"cyShieldgenL2_SD
 
 #	Tech Level	Tech Base	Combat Value	Mass	MountPoint_Size	Damage		
 shieldInfo2 (	7 ,	C ,	1462 ,	9.0 ,	L ,	614	);	
-Z
+

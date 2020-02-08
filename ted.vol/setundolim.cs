@@ -3,5 +3,3 @@ if test $dlgResult != [cancel]
   Ted::setUndoStackLimit $Ted::undoLim
 endif
 
-
-

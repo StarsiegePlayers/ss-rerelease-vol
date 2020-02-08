@@ -4,4 +4,4 @@ droneBase( IDVEH_TR_FLTB_MINO, "TRFLTBMINO",    "tr_fltb_mino.dts", 5.00, 30.00 
 genericDrone(0);
 
 droneExplosion(false, 20.0);
-p
+

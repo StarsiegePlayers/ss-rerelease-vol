@@ -2285,4 +2285,4 @@ IDPAL_TUTORIAL                   = 00180020, "tutorial.ppl";
 
 //IDRES_END_GUI_PAL          		= 00189999, "--- GUI PAL RESOURCE group reserves tags 180,000-189,999 ---";
 
-//00199998 IDRGN_END_USR_GUI            _ 	EE
+//00199998 IDRGN_END_USR_GUI

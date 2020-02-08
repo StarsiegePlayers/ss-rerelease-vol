@@ -1601,4 +1601,5 @@ function onHalt()
 }
 
 // at the start of every mission, make sure we have defined our squadmate orders
-addSquadmateOrders();AA
+addSquadmateOrders();
+

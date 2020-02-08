@@ -77,4 +77,4 @@ newConfiguration(    RightServos,           RightTread,                         
 
 defaultWeapons(      120,                                      120);
 defaultMountables(   113,                   200,                  801,              927,               412,                        914,           820,                   811);
-ã
+

@@ -86,4 +86,3 @@ function Mission::KOTH::create(%numTeams)
 {
 }
 
-

@@ -5,3 +5,4 @@ if test $dlgResult != [cancel]
     Ted::open $Ted::diskName
     Ted::focus
 endif
+

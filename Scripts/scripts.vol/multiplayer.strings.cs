@@ -403,12 +403,4 @@ IDMULT_FOOTY_HAS_BALL               = 02022035, "Ball Carrier";
 IDMULT_AIR_CHINA					= 02022040, "Thank you for flying Inner Martian Airlines!";
 
 IDMULT_RGN_END                      = 02099999, "";
-      
-      
-      
-      
-      
-      
-      
-      
-       
+

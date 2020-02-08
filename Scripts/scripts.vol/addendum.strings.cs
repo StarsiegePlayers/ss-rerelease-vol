@@ -161,4 +161,4 @@ IDADN_DIK_MODIFIER_SHIFT         = 03003002, "sift-";
 IDADN_DIK_MODIFIER_CTRL          = 03003003, "ctrl-";
                                          
 IDRES_ADDENDUM_END               = 03100000;
-S
+

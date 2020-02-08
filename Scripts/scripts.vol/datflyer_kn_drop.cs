@@ -69,3 +69,4 @@ newConfiguration( Armor,	Tail,	0.1	);
 defaultMountables(	102 ,	200,	0,	926,	811	,	820	);	
 
 droneExplosion( true, 25 );						
+

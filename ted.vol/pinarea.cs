@@ -3,5 +3,3 @@ if test $dlgResult != [cancel]
     Ted::pinArea $Ted::iDetail $Ted::deviation
 endif
 
-
-

@@ -89,4 +89,4 @@ IDIRC_CHANNEL_HAS_KEY               = 01060228, "<F4>Cannot join %s: invalid key
 IDIRC_PART_PRIVATE                  = 01020229, "<F4>%s (%s) has disconnected from IRC.";
 
 IDRGN_END_ES3FEAR                  = 01099999;
-f
+

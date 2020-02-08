@@ -35,4 +35,4 @@ IRCChannel channel6
    name  = "#Starsiege-Troubleshooting";
    topic = "Humm?";
 };
-a
+

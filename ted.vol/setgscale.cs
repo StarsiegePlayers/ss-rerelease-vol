@@ -2,3 +2,4 @@ editBox "Ground Scale" "Enter a new value for the default ground scale" Ted::Gro
 if test $dlgResult != [cancel]
    set SimTerrain::GroundScale $Ted::GroundScale
 endif
+

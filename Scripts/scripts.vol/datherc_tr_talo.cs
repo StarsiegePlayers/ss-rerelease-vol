@@ -94,4 +94,4 @@ newConfiguration( RightServos,  RightLeg,                      0.35);
 
 defaultWeapons(   101,                        101);
 defaultMountables(101,          202,             801,              300,                926,                  410,               850,                   810);
-R
+

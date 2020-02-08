@@ -51,4 +51,4 @@ else
 {
 	echo( "Must first initialize MissionEditor" );
 }
-e
+

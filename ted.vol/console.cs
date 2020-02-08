@@ -54,3 +54,4 @@ alias close "echo"
 loadVolume mv ..\art\mars.sim.vol
 loadVolume tv tedsc.vol
 ted
+

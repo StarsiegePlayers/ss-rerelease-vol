@@ -176,4 +176,4 @@ IDITG_PALETTE_END             = 00402024, "Palette End:";
 IDITG_HISTORY_SIZE            = 00402025, "History Size:";
 
 //IDDAT_END_ES_ITG            = 00449999, "- ES Inspect DATA group reserves tags 400,000 - 449,999 -";
-q
+

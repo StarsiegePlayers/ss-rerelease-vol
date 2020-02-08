@@ -311,4 +311,5 @@ sfxAddPair(IDSFX_CYBRID_ALARM,		IDPRF_ALARM, "sfx_cybrid_alarm.wav" );
 
 sfxAddPair(IDSFX_BIG_BEAM,   	IDPRF_ALARM,	"sfx_bigbeam.wav" );
 sfxAddPair(IDSFX_BIG_BEAM_FIRE,	IDPRF_FAR,	"sfx_bigbeam_fire.wav" );
-sfxAddPair(IDSFX_ORBITAL_GUN,  	IDPRF_FAR,	"sfx_orbital_gun.wav" );&
+sfxAddPair(IDSFX_ORBITAL_GUN,  	IDPRF_FAR,	"sfx_orbital_gun.wav" );
+

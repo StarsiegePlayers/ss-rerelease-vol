@@ -86,4 +86,4 @@
 															
 	#	Projectile_ID	Shrug	Effective											
 	armorInfospecial(	15 ,	500 ,	1.75	);										
-dd
+

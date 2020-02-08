@@ -633,4 +633,3 @@ ME::RegisterObject( "Multiplayer Shapes", "Football Uprights (ZED)",   ME::Creat
 ME::RegisterObject( "Multiplayer Shapes", "Teleporter (ZED)",    ME::CreateObject, teleport,         StaticInterior,   "teleport.dis");
 ME::RegisterObject( "Multiplayer Shapes", "Teleporter Effect",   ME::CreateObject, fx_tele_t,        StaticShape, true, "fx_tele_t.dts");
 
-o

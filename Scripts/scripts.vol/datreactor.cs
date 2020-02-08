@@ -154,4 +154,4 @@ reactorInfo1 (	IDREA_CYB6,	IDREA_CYB6_L,	"cyReactorL2_S.bmp",	"cyReactorL2_SD.bm
 
 #	Tech Level	Tech Base	Combat Value	Mass	MountPoint_Size	Damage		
 reactorInfo2 (	6 ,	C ,	730 ,	8.0 ,	L ,	900	);	
-R
+

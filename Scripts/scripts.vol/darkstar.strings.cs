@@ -111,4 +111,3 @@ IDSIMOBJ_END_USERWAV       = 01160999, "- User-Defined WavDefIds reserve 1.16M t
 
 IDRGN_END_SIMOBJ           = 01199999, "- SimObject REGION reserves tags 1.15M - 1.2M -";
 
-

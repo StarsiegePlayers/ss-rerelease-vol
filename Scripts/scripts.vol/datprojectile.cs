@@ -67,4 +67,4 @@ newMine(	PROX,	32 ,	50 ,	50 ,	0 ,	30 ,	3 ,	100 ,	10 ,	350 ,	15 ,	0.75 ,	0.00 ,	0
 //	Abbr	Id	TermVel	Pseudo Mass	Damage	Blast R	Concussion %	Elec %	Therm%	Spec %	Passthru Shield	Passthru Armor	Effect v. Shield	Effect v. Armor	Turn Rate	Shape	Transparent Shape	Impaact Id	Shield ImpactId	
 newBomb(	LGB,	22 ,	500 ,	300 ,	600 ,	10 ,	0.50 ,	0.00 ,	0.50 ,	0.00 ,	0.00 ,	0.00 ,	0.50 ,	1.00 ,	0.25 ,	"pr_vip.dts",	"pr_vipT.dts",	IDDTS_EXP_L,	IDDTS_EXP_L	);
 newBomb(	HAD,	23 ,	500 ,	300 ,	500 ,	15 ,	0.30 ,	0.20 ,	0.50 ,	0.00 ,	0.00 ,	0.00 ,	0.50 ,	1.00 ,	0.00 ,	"pr_vip.dts",	"pr_vipT.dts",	IDDTS_FBALL_M,	IDDTS_FBALL_M	);
-y
+

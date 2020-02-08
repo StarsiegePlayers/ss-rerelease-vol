@@ -140,3 +140,4 @@ defineKey(KEY_DELETE,              "",     "", "delete");
 defineKey(KEY_LWIN,                "",     "", "win");           
 defineKey(KEY_RWIN,                "",     "", "win");           
 defineKey(KEY_APPS,                "",     "", "app");           
+

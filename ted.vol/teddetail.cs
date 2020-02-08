@@ -11,3 +11,4 @@ set SimTerrain::BackplaneDistance 750
 set SimTerrain::VisibleDistance 800
 set SimTerrain::PerspectiveDistance 200
 set SimTerrain::HazeDistance 700
+

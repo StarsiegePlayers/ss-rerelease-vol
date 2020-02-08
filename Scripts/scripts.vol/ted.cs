@@ -107,4 +107,4 @@ function ted( %window )
       GuiNewContentCtrl( simCanvas, SimGui::TSControl );
    }
 }
-i
+

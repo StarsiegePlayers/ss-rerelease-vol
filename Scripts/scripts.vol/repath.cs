@@ -8,4 +8,4 @@ if ($CDROM_drive != "")
             @ $CDROM_drive @ "data\\sounds";
 }
 $consoleWorld::defaultSearchPath = $basePath;
-a
+

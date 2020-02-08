@@ -20,7 +20,3 @@ $pref::preLoad = "True";
 $pref::playShellMusic = "True";
 $pref::neverDrawShadows = "False";
 
-
-
-
-r

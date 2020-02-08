@@ -139,4 +139,3 @@ IDCOMEDIT_END_ITG				        = 01019999; // "-- Inspect Window Tags --";
 
 IDRGN_END_COMEDIT			           = 01049999; // "-- Common Editors reserve 1 to 1.05 million --";
 
-n

@@ -10,4 +10,4 @@ droneBase( IDVEH_RB_FLTB_BIG_BOX, "RBFLTB",     "rb_fltb_big_box.dts",  5.00, 30
 genericDrone(2);
 
 droneExplosion(true, 20.0);
-_
+

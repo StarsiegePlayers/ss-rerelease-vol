@@ -4,4 +4,4 @@ droneBase( IDVEH_TR_FLTB_FUEL, "TRFUEL",    "tr_fltb_fuel.dts", 5.00, 30.00 ,  0
 genericDrone(0);
 
 droneExplosion(true, 45.0);
-s
+

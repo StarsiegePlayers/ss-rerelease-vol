@@ -151,4 +151,4 @@ function Terrain::rughills::create(%seed)
    LS::addCommand("clamp   1   0"         );
    LS::addCommand("normalize   0   800"   );
 }
-
+

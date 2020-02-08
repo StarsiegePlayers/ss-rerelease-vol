@@ -40,3 +40,4 @@ function genericDrone(%cargoCount)
 
    defaultMountables(101, 200);
 }}
+

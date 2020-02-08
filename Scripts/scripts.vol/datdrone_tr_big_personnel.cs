@@ -4,4 +4,4 @@ droneBase( IDVEH_TR_FLTB_BIG_PERSONNEL, "TRBIGPERSONNEL",    "tr_fltb_big_person
 genericDrone(1);
 
 droneExplosion(true, 13.0);
-D
+

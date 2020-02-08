@@ -770,4 +770,3 @@ MissionRegObject( "Multiplayer Shapes", "Football Uprights (ZED)",   MissionCrea
 MissionRegObject( "Multiplayer Shapes", "Teleporter (ZED)",    MissionCreateObject, teleport,         StaticInterior,   "teleport.dis");
 MissionRegObject( "Multiplayer Shapes", "Teleporter Effect",   MissionCreateObject, fx_tele_t,        StaticShape, true, "fx_tele_t.dts");
 
-
