@@ -71,6 +71,9 @@ exec( "censor.cs" );
 exec( "squadActions.cs" );
 exec( "cdAudioTracks.cs" );
 
+// No CD patch
+exec( "nocd.cs" );
+
 
 //--------------------------------------
 checkDisk();   
