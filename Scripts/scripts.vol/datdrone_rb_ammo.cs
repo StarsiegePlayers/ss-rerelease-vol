@@ -9,4 +9,4 @@ droneBase( IDVEH_RB_FLTB_AMMO, "RBAMMO",    "rb_fltb_ammo.dts", 5.00, 30.00 ,  0
 
 genericDrone(1);
 
-droneExplosion(true, 25.0);;
+droneExplosion(true, 25.0);
