@@ -8,12 +8,12 @@ $Hardware::3D::Type4 = "i740 Chipset";
 $Hardware::3D::Callback4 = "OptionsVideo::setUpI740();";
 $Hardware::3D::Type5 = "S3 Savage 3D";
 $Hardware::3D::Callback5 = "OptionsVideo::setUpSavage3D();";
-//$Hardware::3D::Type6 = "ATI Rage 128 Chipset";
-//$Hardware::3D::Callback6 = "OptionsVideo::setUpRage128();";
-//$Hardware::3D::Type7 = "Matrox G200 Chipset";
-//$Hardware::3D::Callback7 = "OptionsVideo::setUpG200();";
-//$Hardware::3D::Type8 = "Matrox G400 Chipset";
-//$Hardware::3D::Callback8 = "OptionsVideo::setUpG400();";
+$Hardware::3D::Type6 = "ATI Rage 128 Chipset";
+$Hardware::3D::Callback6 = "OptionsVideo::setUpRage128();";
+$Hardware::3D::Type7 = "Matrox G200 Chipset";
+$Hardware::3D::Callback7 = "OptionsVideo::setUpG200();";
+$Hardware::3D::Type8 = "Matrox G400 Chipset";
+$Hardware::3D::Callback8 = "OptionsVideo::setUpG400();";
 
 
 function OptionsVideo::setUpGenericOpenGL()
@@ -22,7 +22,7 @@ function OptionsVideo::setUpGenericOpenGL()
 
    $pref::OpenGL::NoPackedTextures     = true;
    $pref::OpenGL::NoPalettedTextures   = true;
-   $pref::OpenGL::VisDistCap           = 750;
+   $pref::OpenGL::VisDistCap           = 4000;
 
    flushTextureCache();
 }
@@ -30,7 +30,7 @@ function OptionsVideo::setUpGenericOpenGL()
 function OptionsVideo::setUpGlide()
 {
    echo("setting up Glide");
-
+   
    flushTextureCache();
 }
 
