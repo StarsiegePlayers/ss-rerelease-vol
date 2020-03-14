@@ -147,7 +147,79 @@ function MissionObjectList::onSelected(%world, %obj)
 
 function ApplyButton::onAction()
 {
-   MissionObjectList::Apply();
+	if($ME::InspectObject==8)
+	{
+	ApplyTerrain();
+	}
+	else
+	{
+	focusserver();
+	SetPosition($ME::InspectObject,-999999,-999999,-999999);
+	$ObjectGroup=GetGroup($ME::InspectObject);
+	MissionObjectList::Apply();
+	$ObjectName=GetObjectName($ME::InspectObject);
+	StoreObject($ME::InspectObject,ObjectTmp);
+	DeleteObject($ME::InspectObject);
+	LoadObject($ObjectName,ObjectTmp);
+	AddtoSet($ObjectGroup,$ME::InspectObject);
+	if($ObjectName==""){RenameObject($ME::InspectObject,'');}
+	else{RenameObject($ME::InspectObject,$ObjectName);}
+	focusclient();
+	MissionObjectList::Inspect($ME::InspectWorld,$ME::InspectObject);
+	}
+}
+
+function ApplyTerrain()
+{
+$ISC="EditorGUI/Inspector/InspectorScroll/InspectorScrollContent";
+$InspectTagList=GetNextObject($ISC,0);
+$TerrainName=GetNextObject($ISC,$InspectTagList);
+$WillGhost=GetNextObject($ISC,$TerrainName);
+$ContextPosition=GetNextObject($ISC,$WillGhost);
+$VisDistance=GetNextObject($ISC,$ContextPosition);
+$HazeDistance=GetNextObject($ISC,$VisDistance);
+$HazeVertMin=GetNextObject($ISC,$HazeDistance);
+$HazeVertMax=GetNextObject($ISC,$HazeVertMin);
+$PerspectiveDist=GetNextObject($ISC,$HazeVertMax);
+$ScrnSize=GetNextObject($ISC,$PerspectiveDist);
+$GridFile=GetNextObject($ISC,$ScrnSize);
+$TerrainDML=GetNextObject($ISC,$GridFile);
+$Gravity=GetNextObject($ISC,$TerrainDML);
+$Drag=GetNextObject($ISC,$Gravity);
+$Height=GetNextObject($ISC,$Drag);
+RenameObject($TerrainName,TerrainName);
+RenameObject($WillGhost,WillGhost);
+RenameObject($ContextPosition,ContextPosition);
+RenameObject($VisDistance,VisDistance);
+RenameObject($HazeDistance,HazeDistance);
+RenameObject($HazeVertMin,HazeVertMin);
+RenameObject($HazeVertMax,HazeVertMax);
+RenameObject($PerspectiveDist,PerspectiveDist);
+RenameOBject($ScrnSize,ScrnSize);
+RenameObject($GridFile,GridFile);
+RenameObject($TerrainDML,TerrainDML);
+RenameObject($Gravity,Gravity);
+RenameObject($Drag,Drag);
+RenameObject($Height,Height);
+$VAR_TerrainName=Control::GetText(TerrainName);
+$VAR_WillGhost=Control::GetText(WillGhost);
+$VAR_ContextPosition=Control::GetText(ContextPosition);
+$VAR_VisDistance=Control::GetText(VisDistance);
+$VAR_HazeDistance=Control::GetText(HazeDistance);
+$VAR_HazeVertMin=Control::GetText(HazeVertMin);
+$VAR_HazeVertMax=Control::GetText(HazeVertMax);
+$VAR_PerspectiveDist=Control::GetText(PerspectiveDist);
+$VAR_ScrnSize=Control::GetText(ScrnSize);
+$VAR_GridFile=Control::GetText(GridFile);
+$VAR_TerrainDML=Control::GetText(TerrainDML);
+$VAR_Gravity=Control::GetText(Gravity);
+$VAR_Drag=Control::GetText(Drag);
+$VAR_Height=Control::GetText(Height);
+focusserver();
+setTerrainVisibility($VAR_TerrainName,$VAR_VisDistance,$VAR_HazeDistance,$VAR_HazeVertMin,$VAR_HazeVertMax);
+setTerrainDetail($VAR_TerrainName,$VAR_PerspectiveDist,$VAR_ScrnSize);
+setTerrainContainer($VAR_TerrainName,$VAR_Gravity,$VAR_Drag,$VAR_Height);
+focusclient();
 }
 
 function LockButton::onAction()
@@ -771,4 +843,3 @@ function ME::init()
 
 if(focusServer())
    ME::init();
-
